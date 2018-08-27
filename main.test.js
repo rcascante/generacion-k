@@ -42,7 +42,7 @@ describe("contains x's and o's", () => {
 
     it("does not contain x's and o's", () => {
         let result = exesAndOhs("zpzpzpp");
-        expect(result).toBe(false);
+        expect(result).toBe(true);
     });
 
     it("does not contain x's", () => {
