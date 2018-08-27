@@ -1,0 +1,21 @@
+{
+  "name": "exes-and-ohs",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "test:watchAll": "jest --watchAll"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
